@@ -1,0 +1,16 @@
+{
+  "name": "freebase-vscode-json-export",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Print a portable JSON snapshot to stdout and mark possible truncation. No credentials or database metadata are included in the export envelope.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node src/app.mjs",
+    "live": "node --env-file=.env src/app.mjs --live",
+    "test": "node --test"
+  }
+}

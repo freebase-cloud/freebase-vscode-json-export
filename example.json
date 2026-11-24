@@ -1,0 +1,5 @@
+{
+  "name": "freebase-vscode-json-export",
+  "kind": "cross-tool",
+  "tool": "export"
+}
